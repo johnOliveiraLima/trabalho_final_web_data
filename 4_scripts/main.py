@@ -7,7 +7,7 @@ st.write('Camila Sampaio - 2302758')
 
 st.title('''**Séries IMDB**''')
 
-df = pd.read_csv('../1_bases_tratadas/notasSeriesTratado.csv', sep=';', encoding='utf-8')
+df = pd.read_csv('./1_bases_tratadas/notasSeriesTratado.csv', sep=';', encoding='utf-8')
 
 
 with st.sidebar:
