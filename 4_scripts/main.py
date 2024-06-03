@@ -12,7 +12,7 @@ df = pd.read_csv('./1_bases_tratadas/notasSeriesTratado.csv', sep=';', encoding=
 
 with st.sidebar:
     logo_path = 'logoApp.png'
-    st.logo(logo_path)
+    st.iamge(logo_path)
     st.image(logo_path, width=250, use_column_width=True)
 
     st.title('Escolha uma série')
