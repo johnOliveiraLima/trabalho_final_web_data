@@ -5,9 +5,9 @@ import plotly.express as px
 st.write('João Vitor Lima de Oliveira - 2302736')
 st.write('Camila Sampaio - 2302758')
 
-logo_path = 'logoApp.png'
-st.image(logo_path)
-st.image(logo_path, width=250, use_column_width=True)
+#logo_path = 'logoApp.png'
+#st.image(logo_path)
+#st.image(logo_path, width=250, use_column_width=True)
 
 st.title('''**Séries IMDB**''')
 
